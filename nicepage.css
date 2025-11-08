@@ -45856,6 +45856,7 @@ a.u-link.u-text-hover-color-var:hover {
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xxl: 1320px;
         
         
         
@@ -46376,6 +46377,7 @@ a.u-link.u-text-hover-color-var:hover {
 
 
 
+
  .u-footer {
   background-image: none;
 }
@@ -46383,6 +46385,7 @@ a.u-link.u-text-hover-color-var:hover {
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
+
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;

@@ -1,135 +1,97 @@
  .u-section-1 {
-  background-image: none;
+  background-image: linear-gradient(to bottom, rgba(85, 92, 102, 1), rgba(133, 142, 153, 1));
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 570px;
 }
 
-.u-section-1 .u-list-1 {
-  width: 518px;
-  margin: 210px auto 60px -37px;
+.u-section-1 .u-text-1 {
+  margin-bottom: 60px;
+  font-weight: 400;
 }
 
-.u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(1, 100%);
-  min-height: 191px;
-  --gap: 0px;
-  grid-auto-columns: 100%;
-}
-
-.u-section-1 .u-list-item-1 {
-  background-image: none;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding: 9px 0 37px;
+.u-section-1 .u-text-2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 209px auto 0;
 }
 
 .u-section-1 .u-icon-1 {
-  width: 123px;
-  height: 123px;
-  background-image: none;
-  margin: 21px auto 0 0;
-  padding: 31px;
+  width: 105px;
+  height: 105px;
+  margin: -81px auto 0 315px;
+  padding: 0;
 }
 
-.u-section-1 .u-text-1 {
-  font-size: 1.25rem;
-  transition-duration: 1s;
-  margin: -110px -17px 0 -289px;
+.u-section-1 .u-icon-2 {
+  width: 105px;
+  height: 105px;
+  margin: -105px 315px 60px auto;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-repeater-1 {
-    min-height: 153px;
-    grid-gap: 0px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-
   .u-section-1 .u-icon-1 {
-    margin-top: 10px;
-    margin-left: 13px;
-    padding: 25px;
+    margin-top: 20px;
+    margin-left: 260px;
   }
 
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: -111px;
-    margin-right: -22px;
-    margin-left: -284px;
+  .u-section-1 .u-icon-2 {
+    margin-right: 259px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: 100%;
-    min-height: 770px;
+  .u-section-1 .u-text-2 {
+    margin-top: 268px;
   }
 
   .u-section-1 .u-icon-1 {
-    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-    transition-duration: 1s;
-    --radius: 100px;
+    margin-top: -81px;
+    margin-left: 89px;
   }
 
-  .u-section-1 .u-text-1 {
-    transform: rotate(0deg) scale(1) translateX(300px) translateY(0px);
+  .u-section-1 .u-icon-2 {
+    margin-right: 89px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 90px;
+  .u-section-1 .u-text-1 {
+    font-weight: 700;
+    width: auto;
+    margin-top: 143px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-list-1 {
-    width: 340px;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    min-height: 831px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 70px;
-  }
-
-  .u-section-1 .u-icon-1 {
-    padding: 27px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 667px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 0;
-    margin-left: 0;
+    margin-bottom: 0;
   }
-}
 
-.u-section-1 .u-text-1,
-.u-section-1 .u-text-1:before,
-.u-section-1 .u-text-1 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
+  .u-section-1 .u-icon-1 {
+    margin-top: 20px;
+  }
 
-.u-section-1 .u-text-1.u-text-1.u-text-1:hover {
-  transform: translateX(420px) translateY(0px) rotate(0deg) !important;
-  opacity: 0.8 !important;
-}
-
-.u-section-1 .u-text-1.u-text-1.u-text-1.hover {
-  transform: translateX(420px) translateY(0px) rotate(0deg) !important;
-  opacity: 0.8 !important;
+  .u-section-1 .u-icon-2 {
+    margin-top: -78px;
+    margin-right: 0;
+    margin-bottom: 33px;
+  }
 }
 
 .u-block-7c23-95:not([data-block-selected]):not([data-cell-selected]),

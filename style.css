@@ -49,6 +49,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a {
@@ -404,19 +405,33 @@ a {
   border: 1px solid var(--border);
 }
 
-/* ---------- Page transition ---------- */
+/* ---------- Page transition (swipe between pages) ---------- */
+/* Pure transform — no opacity/fade. Classes are toggled by script.js
+   right before/after it swaps <main> content for the next page. */
 
 main {
-  animation: page-slide-in 0.45s ease-out;
+  position: relative;
 }
 
-@keyframes page-slide-in {
+main.is-leaving {
+  animation: slide-out-left 0.3s ease forwards;
+}
+
+main.is-entering {
+  animation: slide-in-right 0.32s ease forwards;
+}
+
+@keyframes slide-out-left {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-in-right {
   from {
-    opacity: 0;
-    transform: translateX(-32px);
+    transform: translateX(100%);
   }
   to {
-    opacity: 1;
     transform: translateX(0);
   }
 }

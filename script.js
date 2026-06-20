@@ -1,18 +1,3 @@
-// Tiny page-transition router.
-//
-// This is a static multi-page site — every nav link is a real .html file
-// with its own URL. To get a realistic "swipe between pages" feel (instead
-// of a hard reload), this script intercepts clicks on internal links,
-// fetches the next page in the background, and swaps <main> while sliding
-// it out and the new content in.
-//
-// Direction is based on where the target page sits in the nav order
-// relative to the current page: moving to a later page slides
-// left-to-right (old exits left, new enters from the right); moving to
-// an earlier page reverses it (old exits right, new enters from the left).
-//
-// If anything goes wrong (slow network, fetch blocked, JS disabled), it
-// just falls back to a normal page load — nothing breaks.
 
 (function () {
   const mainEl = document.querySelector('main');
